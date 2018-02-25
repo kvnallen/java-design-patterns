@@ -3,8 +3,8 @@ package creational.singleton;
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		DataBase.getInstance().query("from world");
+		DataBase.getInstance().query("from world");
 	}
 
 }

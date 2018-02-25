@@ -9,7 +9,7 @@ a project to study all the most famous design patterns
 - [ ] Builder
 - [ ] Object Pool
 - [ ] Prototype
-- [ ] Singleton
+- [x] Singleton
 
 ## Behavioral
 - [x] Template Method

@@ -7,8 +7,11 @@ import org.junit.jupiter.api.Test;
 class Tests {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void getInstance_dataBasesShouldBeEqual() {
+		DataBase db1 = DataBase.getInstance();
+		DataBase db2 = DataBase.getInstance();
+		
+		assertEquals(db1, db2);
 	}
 
 }
