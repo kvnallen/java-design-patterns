@@ -11,5 +11,4 @@ public class BasicDiscount implements Discount {
 	public double getDiscount(double value) {
 		return value * 0.1;
 	}
-
 }

@@ -1,6 +1,6 @@
 package patterns.strategy;
 
-public class BigDiscount implements Discount{
+public class BigDiscount implements Discount {
 
 	@Override
 	public boolean ofType(ClientType clientType) {
@@ -9,9 +9,9 @@ public class BigDiscount implements Discount{
 
 	@Override
 	public double getDiscount(double value) {
-		if(value > 500)
+		if (value > 500)
 			return value * 0.6;
-		
+
 		return value * 0.4;
 	}
 
